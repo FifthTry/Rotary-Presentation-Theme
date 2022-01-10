@@ -9,8 +9,8 @@ optional string text:
 string image:
 width: fill
 height: fill
-gradient-direction: center
-gradient-colors: yellow, #fbe8c9, pink
+gradient-direction: left to right
+gradient-colors: #aaa8d3, #a4b6ce, #dab3ab, white, #f4efe7, #f4f1e9, #e5eaee, #d7e4f2, white
 padding: 40
 spacing: 40
 if: $library.slide-no == $slide-number
