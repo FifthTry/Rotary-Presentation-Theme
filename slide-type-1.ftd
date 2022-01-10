@@ -10,7 +10,7 @@ string author-bio:
 width: fill
 height: fill
 gradient-direction: bottom-left to top-right
-gradient-colors: yellow, #f3f1ef, red
+gradient-colors: #aaa8d3, #a4b6ce, #dab3ab, #f4efe7, #f4f1e9, #e5eaee, #d7e4f2
 padding: 60
 spacing: space-around
 if: $library.slide-no == $slide-number
