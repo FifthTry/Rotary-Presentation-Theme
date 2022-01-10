@@ -1,0 +1,26 @@
+-- import: library
+-- import: panel
+
+-- ftd.column presentation:
+width: fill
+height: fill
+open: content
+background-color: black
+string bg-color: white
+
+--- ftd.column:
+width: fill
+height: percent 94
+padding: 20
+
+--- ftd.column:
+id: content
+background-color: $bg-color
+align: center
+width: fill
+height: fill
+
+--- container: ftd.main
+
+--- panel.panel:
+

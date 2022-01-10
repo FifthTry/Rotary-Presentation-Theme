@@ -1,0 +1,47 @@
+-- import: library
+
+
+-- ftd.grid slide-type:
+integer slide-number:
+string title:
+string subtitle:
+optional string text:
+string image:
+width: fill
+height: fill
+gradient-direction: center
+gradient-colors: yellow, #fbe8c9, pink
+padding: 40
+spacing: 40
+if: $library.slide-no == $slide-number
+slots: slide-image slide-text
+slot-widths: 45% auto
+slot-heights: 100%
+
+--- ftd.image:
+src: $image
+border-radius: 30
+slot: slide-image
+height: fill
+crop: true
+
+--- ftd.column:
+width: fill
+spacing: 40
+overflow-y: auto
+slot: slide-text
+
+--- ftd.text: $title
+style: medium
+color: #4a1410
+align: center
+size: 60
+text-align: center
+
+--- ftd.text: $subtitle
+align: center
+size: 45
+
+--- ftd.text: $text
+align: center
+size: 28

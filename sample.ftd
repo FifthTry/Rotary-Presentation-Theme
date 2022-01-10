@@ -1,0 +1,28 @@
+-- library.total: 2
+
+-- ppt.presentation:
+
+--- slide1.slide-type:
+slide-number: 0
+title: Diversity in the Digital Age
+subtitle: Ensuring diversity in the virtual workplace
+author-name: Larissa Charter
+author-bio: VP of Human Resources Zenith Central Bank
+
+
+--- slide2.slide-type:
+slide-number: 1
+title: I have almost 30 years of experience in the HR industry.
+subtitle: I have seen companies succeed and fail due to how they approached workplace diversity.
+text: With Canva Presentations, you can collaborate in real-time with your teammates or co-presenters. Share tasks and work simultaneously to create a powerful presentation.
+image: static/me.jpeg
+
+
+--- slide3.slide-type:
+slide-number: 2
+title: Diversity helps you retain talent.
+subtitle: Retaining talented employees results in better overall performance.
+text: Present with ease and wow any audience with Canva Presentations. Choose from over a thousand professionally-made templates to fit any objective or topic. Make it your own by customizing it with text and photos.
+image: static/pic1.jpeg
+
+

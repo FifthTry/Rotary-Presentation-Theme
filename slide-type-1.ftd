@@ -1,0 +1,44 @@
+-- import: library
+
+
+-- ftd.column slide-type:
+integer slide-number:
+string title:
+optional string subtitle:
+string author-name:
+string author-bio:
+width: fill
+height: fill
+gradient-direction: bottom-left to top-right
+gradient-colors: yellow, #f3f1ef, red
+padding: 60
+spacing: space-around
+if: $library.slide-no == $slide-number
+
+--- ftd.text: $title
+style: medium
+color: #4a1410
+align: center
+size: 140
+text-align: center
+
+--- ftd.row:
+width: fill
+spacing: space-between
+
+--- ftd.text: $subtitle
+if: $subtitle is not null
+align: center
+size: 28
+
+--- ftd.column:
+align: center
+
+--- ftd.text: $author-name
+align: center
+size: 30
+style: bold
+
+--- ftd.text: $author-bio
+align: center
+size: 20

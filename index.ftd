@@ -1,0 +1,46 @@
+-- ftd.column:
+width: fill
+height: fill
+padding: 60
+
+
+-- ftd.text: Rotary Presentation Theme
+style: medium
+color: #5e5a58
+align: center
+size: 60
+text-align: center
+margin-bottom: 50
+
+
+-- ftd.text:
+font: fantasy
+align: center
+size: 40
+text-align: center
+line-height: 80
+
+This contains rotary theme which can be used to create {awesome} presentation.
+
+{italic: Design is available to you}. You just need to provide data and use this theme to make your presentation.
+
+{highlight: You are few steps away to have your presentation ready. :) }
+
+Checkout the {sample: sample.ftd}
+
+--- ftd.text highlight:
+background-color: rgba(255, 255, 0, 0.41)
+
+--- ftd.text italic:
+style: italic
+color: #b80ecb
+
+--- ftd.text awesome:
+color: green
+
+--- ftd.text sample:
+link: sample
+color: blue
+
+
+
