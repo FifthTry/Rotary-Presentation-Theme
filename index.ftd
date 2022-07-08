@@ -60,7 +60,7 @@ dark: #5e5a58
 
 -- string context: 
 This contains rotary theme which can be used to create 
-{awesome} presentation.
+{awesome: awesome} presentation.
 
 {italic: Design is available to you}. You just need to provide data and use 
 this theme to make your presentation.
