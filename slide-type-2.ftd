@@ -1,4 +1,60 @@
--- import: library
+-- import: fifthtry.github.io/Rotary-Presentation-Theme/library
+
+-- ftd.font-size small-desktop:
+line-height: 32
+size: 28
+letter-spacing: 0
+
+-- ftd.type small: serif
+desktop: $small-desktop
+mobile: $small-desktop
+xl: $small-desktop
+weight: 400
+
+-- ftd.font-size large-desktop:
+line-height: 38
+size: 65
+letter-spacing: 0
+
+-- ftd.type large: serif
+desktop: $large-desktop
+mobile: $large-desktop
+xl: $large-desktop
+weight: 700
+
+-- ftd.font-size medium-desktop:
+line-height: 54
+size: 45
+letter-spacing: 0
+
+-- ftd.type medium: serif
+desktop: $medium-desktop
+mobile: $medium-desktop
+xl: $medium-desktop
+weight: 400
+
+-- ftd.font-size big-desktop:
+line-height: 68
+size: 60
+letter-spacing: 0
+
+-- ftd.type big: serif
+desktop: $big-desktop
+mobile: $big-desktop
+xl: $big-desktop
+weight: 500
+
+-- ftd.color dark-red:
+light: #4a1410
+dark: #4a1410
+
+
+
+
+
+
+
+
 
 
 -- ftd.grid slide-type:
@@ -6,7 +62,7 @@ integer slide-number:
 string title:
 string subtitle:
 optional string text:
-string image:
+ftd.image-src image:
 width: fill
 height: fill
 gradient-direction: center
@@ -32,16 +88,15 @@ overflow-y: auto
 slot: slide-text
 
 --- ftd.text: $title
-style: medium
-color: #4a1410
+color: $dark-red
 align: center
-size: 60
 text-align: center
+role: $big
 
 --- ftd.text: $subtitle
 align: center
-size: 45
+role: $medium
 
 --- ftd.text: $text
 align: center
-size: 28
+role: $small

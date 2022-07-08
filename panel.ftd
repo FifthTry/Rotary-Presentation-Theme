@@ -1,4 +1,12 @@
--- import: library
+-- import: fifthtry.github.io/Rotary-Presentation-Theme/library
+
+-- ftd.color white:
+light: white
+dark: white
+
+
+
+
 
 -- ftd.grid panel:
 width: fill
@@ -9,8 +17,8 @@ slot: main
 align: center
 
 --- ftd.image:
-src: static/change-button.png
-$event-click$: decrement $library.slide-no clamp 0 $library.total
+src: $assets.files.static.change-button.png
+$on-click$: decrement $library.slide-no clamp 0 $library.total
 width: 120
 align: center
 
@@ -18,16 +26,24 @@ align: center
 align: center
 
 --- ftd.image:
-src: static/change-button.png
+src: $assets.files.static.change-button.png
 scale-x: -1
-$event-click$: increment $library.slide-no clamp 0 $library.total
+$on-click$: increment $library.slide-no clamp 0 $library.total
 width: 120
 align: center
 
 
+
+
+
+
+
+
+
+
 -- ftd.row show-meter:
 padding: 11
-background-color: white
+background-color: $white
 border-radius: 10
 
 --- ftd.integer: $library.slide-no

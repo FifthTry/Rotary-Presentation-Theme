@@ -2,4 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/Rotary-Presentation-Theme
 zip: github.com/fifthtry/rotary-presentation-theme/archive/refs/heads/main.zip
+base:  https://raw.githubusercontent.com/fifthtry/Rotary-Presentation-Theme/main
 
+-- fpm.auto-import: fifthtry.github.io/Rotary-Presentation-Theme/assets
+-- fpm.auto-import: fpm

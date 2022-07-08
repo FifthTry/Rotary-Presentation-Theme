@@ -1,46 +1,167 @@
--- ftd.column:
-width: fill
-height: fill
-padding: 60
 
+-- string context: 
+This contains rotary theme which can be used to create 
+{awesome: awesome} presentation.
 
--- ftd.text: Rotary Presentation Theme
-style: medium
-color: #5e5a58
-align: center
-size: 60
-text-align: center
-margin-bottom: 50
-
-
--- ftd.text:
-font: fantasy
-align: center
-size: 40
-text-align: center
-line-height: 80
-
-This contains rotary theme which can be used to create {awesome} presentation.
-
-{italic: Design is available to you}. You just need to provide data and use this theme to make your presentation.
+{italic: Design is available to you}. You just need to provide data and use 
+this theme to make your presentation.
 
 {highlight: You are few steps away to have your presentation ready. :) }
 
 Checkout the {sample: sample.ftd}
 
---- ftd.text highlight:
-background-color: rgba(255, 255, 0, 0.41)
 
---- ftd.text italic:
+
+
+
+-- ftd.font-size large-desktop:
+line-height: 80
+size: 60
+letter-spacing: 0
+
+-- ftd.type large: serif
+desktop: $large-desktop
+mobile: $large-desktop
+xl: $large-desktop
+weight: 500
+
+-- ftd.font-size small-desktop:
+line-height: 80
+size: 40
+letter-spacing: 0
+
+-- ftd.type small: fantasy
+desktop: $small-desktop
+mobile: $small-desktop
+xl: $small-desktop
+weight: 400
+
+-- ftd.font-size medium-desktop:
+line-height: 26
+size: 40
+letter-spacing: 0
+
+-- ftd.type medium: fantasy
+desktop: $medium-desktop
+mobile: $medium-desktop
+xl: $medium-desktop
+weight: 400
+
+-- ftd.color green:
+light: green
+dark: green
+
+-- ftd.color blue:
+light: blue
+dark:blue
+
+-- ftd.color purple:
+light: #b80ecb
+dark: #b80ecb
+
+-- ftd.color hightlight:
+light: rgba(255, 255, 0, 0.41)
+dark:  rgba(255, 255, 0, 0.41)
+
+-- ftd.color grey:
+light: #5e5a58
+dark: #5e5a58
+
+
+
+
+
+
+
+
+
+
+-- ftd.column:
+width: fill
+height: fill
+padding: 60
+
+-- ftd.text: Rotary Presentation Theme
+color: $grey
+align: center
+role: $large
+text-align: center
+margin-bottom: 50
+
+-- ftd.text:
+text: $context
+role: $medium
+
+
+
+
+
+
+
+
+
+
+-- ftd.text highlight: text
+background-color: $hightlight
+role: $small
+width: fill
+white-space: wrap
+height: 56
+margin-top: 10
+margin-bottom: 10
+
+
+
+
+
+
+
+
+
+
+-- ftd.text italic:text
 style: italic
-color: #b80ecb
+color: $purple
+role: $small
+width: fill
+white-space: pre
+padding-vertical: 24
+margin-top: 10
+margin-bottom: 10
 
---- ftd.text awesome:
-color: green
 
---- ftd.text sample:
+
+
+
+
+
+
+
+
+-- ftd.text awesome: text
+color: $green
+role: $small
+width: fill
+white-space: pre
+padding-vertical: 24
+margin-top: 10
+margin-bottom: 10
+
+
+
+
+
+
+
+
+
+
+-- ftd.text sample:text
 link: sample
-color: blue
-
-
-
+color: $blue
+role: $small
+width: fill
+white-space: pre
+padding-vertical: 24
+margin-top: 10
+margin-bottom: 10
