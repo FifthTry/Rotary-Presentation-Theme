@@ -1,9 +1,12 @@
 -- import: fifthtry.github.io/Rotary-Presentation-Theme/library
--- import: fifthtry.github.io/Rotary-Presentation-Theme/assets
 
 -- ftd.color white:
 light: white
 dark: white
+
+
+
+
 
 -- ftd.grid panel:
 width: fill
@@ -28,6 +31,14 @@ scale-x: -1
 $on-click$: increment $library.slide-no clamp 0 $library.total
 width: 120
 align: center
+
+
+
+
+
+
+
+
 
 
 -- ftd.row show-meter:

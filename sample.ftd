@@ -3,7 +3,9 @@
 -- import: fifthtry.github.io/Rotary-Presentation-Theme/slide-type-1 as slide1
 -- import: fifthtry.github.io/Rotary-Presentation-Theme/slide-type-2 as slide2
 -- import: fifthtry.github.io/Rotary-Presentation-Theme/slide-type-2 as slide3
--- import: fifthtry.github.io/Rotary-Presentation-Theme/assets
+
+
+
 
 
 -- library.total: 2
@@ -17,7 +19,6 @@ subtitle: Ensuring diversity in the virtual workplace
 author-name: Larissa Charter
 author-bio: VP of Human Resources Zenith Central Bank
 
-
 --- slide2.slide-type:
 slide-number: 1
 title: I have almost 30 years of experience in the HR industry.
@@ -25,12 +26,9 @@ subtitle: I have seen companies succeed and fail due to how they approached work
 text: With Canva Presentations, you can collaborate in real-time with your teammates or co-presenters. Share tasks and work simultaneously to create a powerful presentation.
 image: $assets.files.static.me.jpeg
 
-
 --- slide3.slide-type:
 slide-number: 2
 title: Diversity helps you retain talent.
 subtitle: Retaining talented employees results in better overall performance.
 text: Present with ease and wow any audience with Canva Presentations. Choose from over a thousand professionally-made templates to fit any objective or topic. Make it your own by customizing it with text and photos.
 image: $assets.files.static.pic1.jpeg
-
-

@@ -1,4 +1,17 @@
 
+-- string context: 
+This contains rotary theme which can be used to create 
+{awesome: awesome} presentation.
+
+{italic: Design is available to you}. You just need to provide data and use 
+this theme to make your presentation.
+
+{highlight: You are few steps away to have your presentation ready. :) }
+
+Checkout the {sample: sample.ftd}
+
+
+
 
 
 -- ftd.font-size large-desktop:
@@ -11,7 +24,6 @@ desktop: $large-desktop
 mobile: $large-desktop
 xl: $large-desktop
 weight: 500
-
 
 -- ftd.font-size small-desktop:
 line-height: 80
@@ -47,7 +59,6 @@ dark:blue
 light: #b80ecb
 dark: #b80ecb
 
-
 -- ftd.color hightlight:
 light: rgba(255, 255, 0, 0.41)
 dark:  rgba(255, 255, 0, 0.41)
@@ -56,18 +67,6 @@ dark:  rgba(255, 255, 0, 0.41)
 light: #5e5a58
 dark: #5e5a58
 
-
-
--- string context: 
-This contains rotary theme which can be used to create 
-{awesome: awesome} presentation.
-
-{italic: Design is available to you}. You just need to provide data and use 
-this theme to make your presentation.
-
-{highlight: You are few steps away to have your presentation ready. :) }
-
-Checkout the {sample: sample.ftd}
 
 
 
@@ -82,7 +81,6 @@ width: fill
 height: fill
 padding: 60
 
-
 -- ftd.text: Rotary Presentation Theme
 color: $grey
 align: center
@@ -90,14 +88,20 @@ role: $large
 text-align: center
 margin-bottom: 50
 
-
 -- ftd.text:
 text: $context
 role: $medium
 
 
 
--- ftd.text highlight: hgh
+
+
+
+
+
+
+
+-- ftd.text highlight: text
 background-color: $hightlight
 role: $small
 width: fill
@@ -106,7 +110,16 @@ height: 56
 margin-top: 10
 margin-bottom: 10
 
--- ftd.text italic:hj
+
+
+
+
+
+
+
+
+
+-- ftd.text italic:text
 style: italic
 color: $purple
 role: $small
@@ -116,7 +129,16 @@ padding-vertical: 24
 margin-top: 10
 margin-bottom: 10
 
--- ftd.text awesome: h
+
+
+
+
+
+
+
+
+
+-- ftd.text awesome: text
 color: $green
 role: $small
 width: fill
@@ -125,7 +147,16 @@ padding-vertical: 24
 margin-top: 10
 margin-bottom: 10
 
--- ftd.text sample:mnhj
+
+
+
+
+
+
+
+
+
+-- ftd.text sample:text
 link: sample
 color: $blue
 role: $small
@@ -134,4 +165,3 @@ white-space: pre
 padding-vertical: 24
 margin-top: 10
 margin-bottom: 10
-

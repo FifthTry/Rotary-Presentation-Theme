@@ -1,6 +1,5 @@
 -- import: fifthtry.github.io/Rotary-Presentation-Theme/library
 
-
 -- ftd.font-size small-desktop:
 line-height: 32
 size: 28
@@ -17,19 +16,16 @@ line-height: 38
 size: 65
 letter-spacing: 0
 
-
 -- ftd.type large: serif
 desktop: $large-desktop
 mobile: $large-desktop
 xl: $large-desktop
 weight: 700
 
-
 -- ftd.font-size medium-desktop:
 line-height: 54
 size: 45
 letter-spacing: 0
-
 
 -- ftd.type medium: serif
 desktop: $medium-desktop
@@ -42,7 +38,6 @@ line-height: 68
 size: 60
 letter-spacing: 0
 
-
 -- ftd.type big: serif
 desktop: $big-desktop
 mobile: $big-desktop
@@ -52,6 +47,15 @@ weight: 500
 -- ftd.color dark-red:
 light: #4a1410
 dark: #4a1410
+
+
+
+
+
+
+
+
+
 
 -- ftd.grid slide-type:
 integer slide-number:
