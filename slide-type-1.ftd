@@ -1,4 +1,90 @@
--- import: library
+-- import: fifthtry.github.io/Rotary-Presentation-Theme/library
+
+-- ftd.font-size small-desktop:
+line-height: 28
+size: 20
+letter-spacing: 0
+
+
+-- ftd.type small: serif
+desktop: $small-desktop
+mobile: $small-desktop
+xl: $small-desktop
+weight: 400
+
+-- ftd.font-size large-desktop:
+line-height: 38
+size: 30
+letter-spacing: 0
+
+
+-- ftd.type large: serif
+desktop: $large-desktop
+mobile: $large-desktop
+xl: $large-desktop
+weight: 700
+
+
+-- ftd.font-size medium-desktop:
+line-height: 32
+size: 28
+letter-spacing: 0
+
+
+-- ftd.type medium: serif
+desktop: $medium-desktop
+mobile: $medium-desktop
+xl: $medium-desktop
+weight: 400
+
+-- ftd.font-size big-desktop:
+line-height: 148
+size: 140
+letter-spacing: 0
+
+
+-- ftd.type big: serif
+desktop: $big-desktop
+mobile: $big-desktop
+xl: $big-desktop
+weight: 500
+
+
+-- ftd.color light-grey:
+light: #aaa8d3
+dark: #aaa8d3
+
+-- ftd.color lighter-grey:
+light:#a4b6ce
+dark:#a4b6ce
+
+-- ftd.color light-pink:
+light: #dab3ab
+dark: #dab3ab
+
+
+-- ftd.color lighter-pink:
+light: #f4efe7
+dark: #f4efe7
+
+
+-- ftd.color lightest-pink:
+light:  #f4f1e9
+dark:  #f4f1e9
+
+
+-- ftd.color lightest-grey:
+light: #e5eaee
+dark: #e5eaee
+
+
+-- ftd.color light-blue:
+light: #d7e4f2
+dark: #d7e4f2
+
+-- ftd.color dark-red:
+light: #4a1410
+dark: #4a1410
 
 
 -- ftd.column slide-type:
@@ -16,10 +102,9 @@ spacing: space-around
 if: $library.slide-no == $slide-number
 
 --- ftd.text: $title
-style: medium
-color: #4a1410
+color: $dark-red
+role: $big
 align: center
-size: 140
 text-align: center
 
 --- ftd.row:
@@ -29,16 +114,15 @@ spacing: space-between
 --- ftd.text: $subtitle
 if: $subtitle is not null
 align: center
-size: 28
+role: $medium
 
 --- ftd.column:
 align: center
 
 --- ftd.text: $author-name
 align: center
-size: 30
-style: bold
+role: $large
 
 --- ftd.text: $author-bio
 align: center
-size: 20
+role: $small

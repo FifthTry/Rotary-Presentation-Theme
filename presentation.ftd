@@ -1,12 +1,21 @@
--- import: library
--- import: panel
+-- import: fifthtry.github.io/Rotary-Presentation-Theme/library
+-- import: fifthtry.github.io/Rotary-Presentation-Theme/panel
+
+-- ftd.color black:
+light: black
+dark: black
+
+-- ftd.color white:
+light: white
+dark: white
 
 -- ftd.column presentation:
 width: fill
 height: fill
-open: content
-background-color: black
-string bg-color: white
+open: true
+append-at: content
+background-color: $black
+ftd.color bg-color: $white
 
 --- ftd.column:
 width: fill
